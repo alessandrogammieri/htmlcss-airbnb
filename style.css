@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.cont-one{
+  width: 100vw;
+  height: 100vh;
+  background: url("media/roma.jpg");
+  /* background-size: cover; */
+}
+
+.cont-two{
+  width: 100vw;
+  height: 100vh;
+  background: url("media/molise.jpg");
+  /* background-size: cover; */
+}
+
+.cont-three{
+  width: 100vw;
+  height: 100vh;
+  background: url("media/napoli.jpg");
+  /* background-size: cover; */
+}
