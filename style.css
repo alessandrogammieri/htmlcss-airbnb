@@ -1,25 +1,45 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 .cont-one{
-  width: 100vw;
+  position: relative;
   height: 100vh;
-  background: url("media/roma.jpg");
-  /* background-size: cover; */
+  background-image: url("media/roma.jpg");
+  margin: 20px;
 }
 
 .cont-two{
-  width: 100vw;
+  position: relative;
   height: 100vh;
-  background: url("media/molise.jpg");
-  /* background-size: cover; */
+  background-image: url("media/molise.jpg");
+  margin: 20px;
 }
 
 .cont-three{
-  width: 100vw;
+  position: relative;
   height: 100vh;
-  background: url("media/napoli.jpg");
-  /* background-size: cover; */
+  background-image: url("media/napoli.jpg");
+  margin: 20px;
+}
+
+.shadow {
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 200px;
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 5px 5px #000000;
+  text-transform: uppercase;
 }
